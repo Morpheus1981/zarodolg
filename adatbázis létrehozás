@@ -1,0 +1,13 @@
+CREATE TABLE `gk` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`gkrendszam` varchar(100)NOT NULL,
+	`gkszin` varchar(100) NOT NULL,
+	`gkalvazszam` varchar(100) NOT NULL,
+	`gkmuszakierv` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+
+A logó hivatkozása https://www.vector4free.com/free-vectors/cars-logo
+Ingyen használható nem kell licenselni hogy használható legyen

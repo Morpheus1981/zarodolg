@@ -1,0 +1,92 @@
+body {
+  background-color: lightyellow;
+
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  background-color: lightblue;
+  border-radius: 10px;
+  box-shadow: 15px 5px 15px 5px;
+}
+
+.container header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.container header h1, h2 {
+  margin:30px;
+  border-radius: 5px;
+  padding:5px;
+  box-shadow: 5px 5px 10px 2px;
+}
+.container header h1 img{
+  width: 150px;
+  margin:0px;
+}
+
+.kep {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: white;
+}
+.kep img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 2px;
+
+}
+
+.carRegister {
+  float:left;
+  border: double;
+  border-color: lightblue;
+  border-radius: 10px;
+box-shadow: 5px 5px 10px 2px;
+  padding:10px;
+  margin:10px;
+  background-color: white;
+  width: 50%;
+}
+
+.carList {
+background-color: white;
+}
+
+
+.tartalom {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  float: right;
+  background-color: grey;
+
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+@media screen and (max-width:770px) {
+.kep {
+  display: none;
+}
+.tartalom {
+  flex-direction: column;
+}
+.carRegister{
+  width: 90%;
+
+}
+}
