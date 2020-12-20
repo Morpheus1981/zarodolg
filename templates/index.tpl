@@ -1,6 +1,3 @@
-<?php include('listabeillesztteszt.php')?>
-
-
 <section class="kep">
   <p><img src="kep1.jpg" alt=""></p>
   <p><img src="kep2.jpg" alt=""></p>
@@ -32,10 +29,6 @@
 
 <section class="carRegister">
     <h3>Nyilvántartott autok</h3>
-<?php
-if(tablazat('reg_car', $_POST)) {
-  reg_car();
-}
 
 </div>
 </section>

@@ -50,7 +50,7 @@ body {
   border: double;
   border-color: lightblue;
   border-radius: 10px;
-box-shadow: 5px 5px 10px 2px;
+  box-shadow: 5px 5px 10px 2px;
   padding:10px;
   margin:10px;
   background-color: white;
@@ -58,7 +58,7 @@ box-shadow: 5px 5px 10px 2px;
 }
 
 .carList {
-background-color: white;
+  background-color: white;
 }
 
 
@@ -70,6 +70,40 @@ background-color: white;
   background-color: grey;
 
 }
+.car-carRegister, p .lista, table {
+  background-color:#d9d9d9;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+table tr:hover{
+  background-color:white;
+}
+table {
+  width: 100%;
+}
+table tr th {
+  border-radius: 10px;
+}
+.lista, table{
+  box-shadow: 5px 5px 10px 2px;
+  border-radius: 10px;
+}
+.lista, table, tr{
+  margin:5px;
+  box-shadow: 0px 0px 10px 0px;
+  border-radius: 10px;
+  border-style: none;
+}
+.lista, table, tr, td{
+  padding:6px;
+  border-radius: 10px;
+}
+label {
+  display:block;
+}
+
+
 footer{
   background-color: black;
   color: white;
@@ -78,15 +112,37 @@ footer{
   border-radius: 0px 0px 10px 10px;
 }
 
-@media screen and (max-width:770px) {
-.kep {
-  display: none;
-}
+@media screen and (max-width:1040px) {
+
 .tartalom {
   flex-direction: column;
+
 }
 .carRegister{
-  width: 90%;
+  width: auto;
+  text-align: center;
+}
+.car-carRegister, p .lista, table {
+  background-color:#d9d9d9;
+  margin-left: auto;
+  margin-right:auto;
 
+}
+table tr:hover{
+  background-color:white;
+}
+table {
+  width: 100%;
+}
+
+.container {
+  min-width: 440px;
+}
+}
+
+@media screen and (max-width:800px) {
+
+.kep img {
+  display: none;
 }
 }

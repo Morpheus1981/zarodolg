@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 
@@ -49,6 +48,6 @@ if(count($errors)== 0) {
   mysqli_query($db, $query);
   $_SESSION['gkrendszam'] = $gkrendszam;
   $_SESSION['success'] ="A gépkocsi felvitelre került";
-  header('location:index.php');
+//  header('location:index.php');
 }
  ?>

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="hu">
   <head>
@@ -14,11 +13,10 @@
 <div class="container">
 <header>
   <div>
-    <h1><img src="logo.jpg" alt=""></h1>
+    <h1>Version_1.0<br/><img src="logo.jpg" alt=""></h1>
 
   </div>
   <div>
     <h2>Gépjármű Nyilvántartó Rendszer</h2>
-
   </div>
 </header>

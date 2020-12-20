@@ -1,9 +1,5 @@
 <?php include("felvittautolista.php"); ?>
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
+
 
 <?php
 //$q = intval($_GET['id']);
@@ -45,5 +41,3 @@ echo "</table>";
 mysqli_close($con);
 */
 ?>
-</body>
-</html>

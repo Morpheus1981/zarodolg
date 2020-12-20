@@ -1,8 +1,11 @@
 
-<?php function tablazat(){?>
   <?php include('server.php')?>
-<?php
-
+<?php function tablazat(){
+  $gkrendszam = "";
+  $gkszin = "";
+  $gkalvazszam = "";
+  $gkmuszakierv = "";
+  $errors = array();
 
 $db = mysqli_connect('localhost', 'root', '', 'gknyilvantarto');
 
@@ -36,6 +39,9 @@ echo "<tr><th>No</th><th>Gk rendszám</th><th>Gk szín</th><th>Gk alvazszam</th>
   echo  "<td>".$sor['gkszin']. "</td>";
   echo  "<td>".$sor['gkalvazszam']. "</td>";
   echo  "<td>".$sor['gkmuszakierv']. "</td>";
+
 }
+
   }
+
 }
